@@ -7,4 +7,33 @@
 firstName = "Fred"
 lastName = "Flinstone"
 
-print(firstName + lastName)
+fullName = firstName + " " + lastName
+
+print(fullName)
+
+# Repetition
+# repetition operator: *
+
+print("Hip "*2 + "Hooray!")
+
+
+def rowYourBoat():
+    print("Row "*3 + 'your boat')
+    print("Gently down a stream")
+    print("Merrily,"*4)
+    print("Life is but a dream")
+
+rowYourBoat()
+
+
+
+
+
+
+
+
+
+
+
+
+
