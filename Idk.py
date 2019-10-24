@@ -25,6 +25,20 @@ def rowYourBoat():
 
 rowYourBoat()
 
+# Indexing
+
+name = "Roy G Biv"
+firstChair = name[0]
+print(firstChair)
+middleIndex = len(name) //2
+print(middleIndex)
+print(name[middleIndex])
+
+print(name[-1])
+
+for i in range(len(name)):
+    print(name[i])
+
 
 
 
