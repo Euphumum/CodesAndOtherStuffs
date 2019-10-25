@@ -61,6 +61,55 @@ if "y" in name:
 else:
     print("The letter y is not in  name")
 
+# String Methods to investigate:
+# Method        Use Example         Explanation
+# center        aStr.center(w)
+string = "Python is awesome"
+
+new_string = string.center(24)
+
+print("Centered String: ", new_string)
+# Returns a string padded with fillchar. It doesn't modify the original string.
+# ljust         aStr.ljust(w)
+string = 'cat'
+width = 5
+
+print(string.ljust(width))
+# Adds space to the end of the word
+# rjust         aStr.rjust(w)
+string = 'cat'
+width = 5
+
+print(string.rjust(width))
+# Adds space to the beginning of the string
+# upper         aStr.upper()
+string = "this should be uppercase!"
+print(string.upper())
+
+string = "Th!s Sh0uLd B3 uPp3rCas3!"
+print(string.upper())
+
+# Makes everything UpperCase
+# lower         aStr.lower()
+string = "THIS SHOULD BE LOWERCASE!"
+print(string.lower())
+
+string = "Th!s Sh0uLd B3 L0w3rCas3!"
+print(string.lower())
+# Makes everything lowercase
+# index         aStr.index(item)
+
+# rindex        aStr.rindex(item)
+
+# find          aStr.find(item)
+
+# rfind         aStr.rfind(item)
+
+# replace       aStr.replace(old, new)
+
+# Be sure to include multiple examples of all of them in use
+
+
 
 
 
