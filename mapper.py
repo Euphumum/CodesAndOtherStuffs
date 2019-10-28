@@ -6,7 +6,8 @@ def letterToIndex(letter):
         print("error:", letter, "is not in the alphabet")
     return idx
 
-def indexToLetter(idx)
+
+def indexToLetter(idx):
     from string import ascii_lowercase
     alphabet = ascii_lowercase
     letter = ''

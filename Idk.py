@@ -151,6 +151,16 @@ if result != -1:
 else:
     print("Doesn't contain substring")
 # replace       aStr.replace(old, new)
+song = 'cold, cold heart'
+replaced_song = song.replace('o', 'e')
+
+
+print('Original string:', song)
+print('Replaced string:', replaced_song)
+
+song = 'let it be, let it be, let it be'
+
+print(song.replace('let', 'so', 0))
 
 # Be sure to include multiple examples of all of them in use
 
@@ -162,6 +172,12 @@ print(chr(97+13))
 
 print(str(12548))
 
+# testing functions from mapper.py
+
+from mapper import *
+
+print(letterToIndex('P'))
+print(indexToLetter(10))
 
 
 
