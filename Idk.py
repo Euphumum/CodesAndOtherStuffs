@@ -105,37 +105,23 @@ print(string.lower())
 # Makes everything lowercase
 
 # index       aStr.index(item)
-sentence = 'Python programming is fun.'
+txt = "Hello, welcome to my world."
 
-result = sentence.index('is fun')
-print("Substring 'is fun':", result)
+x = txt.index("welcome")
 
-result = sentence.index('Java')
-print("Substring 'Java':", result)
-
+print(x)
 # rindex        aStr.rindex(item)
-quote = 'Let it be, let it be, let it be'
+txt = "Mi casa, su casa."
 
-result = quote.rindex('let it')
-print("Substring 'let it':", result)
+x = txt.rindex("casa")
 
-result = quote.rindex('small')
-print("Substring 'small ':", result)
-
+print(x)
 # find          aStr.find(item)
-quote = 'Let it be, let it be, let it be'
+txt = "Hello,welcome to my world."
 
-result = quote.find('let it')
-print("Substring 'let it':", result)
+x = txt.find("e, 5, 10")
 
-result = quote.find('small')
-print("Substring 'small ':", result)
-
-if quote.find('be,') != -1:
-    print("Contains substring 'be,'")
-else:
-    print("Doesn't contain substring")
-
+print(x)
 # rfind         aStr.rfind(item)
 quote = 'Let it be, let it be, let it be'
 
@@ -179,8 +165,10 @@ from mapper import *
 print(letterToIndex('P'))
 print(indexToLetter(10))
 
-
-
+# this_is_a_secret_message_that_i_want_to_transmit
+# t i _ s_a_s c e _ e s g _ h t_i_w n _ o_t a s i
+#  h s_i _ _ e r t_m s a e_t a _ _ a t_t _ r n m t
+# hsi_ertmaesta_att_rnmtti_sasce_esg_htiwn_otasi
 
 
 
