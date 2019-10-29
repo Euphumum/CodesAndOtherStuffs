@@ -170,6 +170,11 @@ print(indexToLetter(10))
 #  h s_i _ _ e r t_m s a e_t a _ _ a t_t _ r n m t
 # hsi_ertmaesta_att_rnmtti_sasce_esg_htiwn_otasi
 
+from crypto import *
+
+print(scrambled2Encrypt("GOOD MORNING LADIES AND GENTLEMEN"))
+
+
 
 
 
