@@ -172,16 +172,16 @@ print(indexToLetter(10))
 
 from crypto import *
 
-print(scrambled2Encrypt("GOOD MORNING LADIES AND GENTLEMEN"))
+print(scramble2Encrypt("GOOD MORNING LADIES AND GENTLEMEN"))
+
+print(scramble2Decrypt("ODMRIGLDE N ETEEGO ONN AISADGNLMN"))
 
 
+def stripSpace(text):
+    print(text.replace(" ", ""))
 
 
-
-
-
-
-
+stripSpace("Hello world")
 
 
 

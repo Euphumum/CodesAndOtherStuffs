@@ -4,7 +4,8 @@
 # encrypted:hsi_ertmaesta_att_rnmt
 # ti_sasce_esg_htiwn_otasi
 
-def scrambled2Encrypt(plainText):
+
+def scramble2Encrypt(plainText):
     evenChars = ""
     oddChars = ""
     charCount = 0
@@ -16,6 +17,7 @@ def scrambled2Encrypt(plainText):
         charCount = charCount + 1
     cipherText = oddChars + evenChars
     return cipherText
+
 
 def scramble2Decrypt(cipherText):
     halfLength = len(cipherText) // 2
@@ -33,8 +35,25 @@ def scramble2Decrypt(cipherText):
     return plainText
 
 
+def encryptMessage():
+    msg = input("Enter the message to encrypt")
+    cipherText = scramble2Encrypt(msg)
+    print()
+
+# write a stripSpaces(text) function here
 
 
+#  write a caesarEncrypt(plainText, shift)
+#  write a caesarDecrypt(cipherText, shift)
+
+
+def caesarEncrypt(plainText, shift):
+    result = ""
+
+    for i in range(len(plainText)):
+        char = plainText[i]
+
+        if char.isupper():
 
 
 
